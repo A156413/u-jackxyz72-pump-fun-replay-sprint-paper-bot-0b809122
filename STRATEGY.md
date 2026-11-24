@@ -54,10 +54,14 @@ the win rate from 25% to 19%.
 
 `grade-local --stress` rebuilds the dev window from other coins' recorded
 flow. A first 20-copy run was cut short by the local timeout after 2
-copies, both positive (+0.23, +0.03 SOL); a 5-copy run is reported in the
-final handoff. The dev score leans on a few winners, so the final window
-(a fresh 24 h) is the real test — the rules above were picked in flat
-regions of the sweep, not at single best cells.
+copies, both positive (+0.23, +0.03 SOL). A 5-copy run finished: median
++0.03, p10 −0.23, p90 +0.23 SOL, 2 of 5 copies lost money, and the dev
+score (+0.46) sits above all 5 copies — the kit warns the dev score is
+above 90% of the rebuilt copies. Read honestly: the rules are profitable
+on this window but the edge leans on its particular coins, and the final
+window (a fresh 24 h) is the real test — the median rebuilt copy is only
+just positive. The rules above were picked in flat regions of the sweep,
+not at single best cells, which is the best defense available.
 
 ## Files
 
